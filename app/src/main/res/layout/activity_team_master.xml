@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/AbBoxll_1"
+    android:padding="15dp">
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:id="@+id/BtnBox_MyTeam"
+        android:layout_weight="1"
+        android:text="我的组队"
+        android:textSize="28dp"
+        android:background="@drawable/bg_btn4"/>
+    <Button
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:id="@+id/BtnBox_CreateTeam"
+        android:layout_weight="1"
+        android:text="创建组队"
+        android:textSize="28dp"
+        android:background="@drawable/bg_btn4"/>
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AbBoxll_2"
+        android:padding="15dp">
+
+        <Button
+
+            android:layout_marginRight="10dp"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:id="@+id/BtnBox_publish"
+            android:layout_weight="1"
+            android:text="发布小队"
+            android:textSize="28dp"
+            android:background="@drawable/bg_btn4"/>
+        <Button
+            android:layout_marginLeft="10dp"
+
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:id="@+id/BtnBox_TeamMessage"
+            android:layout_weight="1"
+            android:text="小队消息"
+            android:textSize="28dp"
+            android:background="@drawable/bg_btn4"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

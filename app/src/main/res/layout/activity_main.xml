@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_1"
+        android:textSize="16sp"
+        android:textColor="#006695"
+        android:background="@drawable/bg_username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:hint="用户名："
+        android:drawableLeft="@drawable/team"
+        android:drawablePadding="5dp"
+        android:maxLines="1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/et_2"
+        android:textSize="16sp"
+        android:textColor="#006695"
+        android:hint="密码："
+        android:layout_below="@id/et_1"
+        android:layout_marginTop="15dp"
+        android:inputType="textPassword"
+        android:background="@drawable/bg_username"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/lock1"
+        android:drawablePadding="5dp"
+        android:maxLines="1"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ExchangeLogin1"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:text="手机登陆"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/btn_login"
+        android:layout_below="@id/et_2"
+        android:layout_marginTop="85dp"
+        android:text="登陆"
+        android:background="@drawable/bg_btn4"/>
+</RelativeLayout>

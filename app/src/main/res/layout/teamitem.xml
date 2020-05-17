@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/teamItem"
+        android:orientation="horizontal"
+        android:background="#dddddd">
+
+        <TextView
+            android:id="@+id/teamLogo"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:background="#666666"
+            android:text="小队头像"
+            android:textSize="24sp"/>
+
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/itemTile"
+            android:layout_weight="2"
+            android:text="小队"
+            android:textSize="30dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/bg_btn4"
+            android:layout_height="match_parent"
+            android:id="@+id/team_inside"
+            android:layout_marginRight="5dp"
+            android:text="进入"/>
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:background="@drawable/bg_btn4"
+            android:layout_height="match_parent"
+            android:id="@+id/team_invite"
+            android:text="邀请"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
